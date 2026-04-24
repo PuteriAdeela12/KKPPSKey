@@ -1,0 +1,113 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Peminjaman KKPPS</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Premium Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background: #f8fafc; 
+        }
+        .navbar-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            border-bottom: 4px solid #fbbf24;
+        }
+        .menu-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        @media (min-width: 768px) {
+            .menu-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            }
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+<!-- Navigation Bar -->
+<nav class="navbar-gradient py-3 md:py-4 px-4 md:px-6 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex items-center gap-2 md:gap-3">
+            <div class="bg-white p-1.5 md:p-2 rounded-lg shadow-sm shrink-0">
+                <!-- Logo Image -->
+                <img src="assets/logo.png" alt="Logo" class="h-6 md:h-8 w-auto" onerror="this.src='https://cdn-icons-png.flaticon.com/512/2830/2830305.png'">
+            </div>
+            <span class="text-white font-extrabold text-sm md:text-lg tracking-tight uppercase truncate">Sistem Peminjaman KKPPS</span>
+        </div>
+        
+        
+    </div>
+</nav>
+
+<!-- Increased top padding (py-16 md:py-32) to shift menu down -->
+<main class="flex-grow container mx-auto px-4 md:px-6 max-w-5xl py-16 md:py-32">
+    
+    <!-- Header Section -->
+    <div class="mb-10 md:mb-16 text-center">
+        <h2 class="text-4xl md:text-5xl font-black text-blue-900 mb-3">Menu Utama</h2>
+        <p class="text-slate-500 text-base md:text-lg font-medium">Sila pilih kategori peminjaman yang dikehendaki</p>
+        <div class="w-16 md:w-24 h-1 md:h-2 bg-yellow-400 mx-auto mt-4 md:mt-6 rounded-full"></div>
+    </div>
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+
+        <!-- Card: Barang -->
+        <a href="barang_dashboard.php" class="group block">
+            <div class="menu-card bg-white p-6 md:p-10 rounded-[1.5rem] md:rounded-[3rem] border border-slate-100 shadow-sm flex flex-row md:flex-col items-center md:text-center h-full gap-5 md:gap-0">
+                <div class="w-16 h-16 md:w-24 md:h-24 bg-blue-50 rounded-2xl md:rounded-[2rem] flex items-center justify-center text-3xl md:text-5xl md:mb-8 shrink-0 group-hover:scale-110 transition duration-300">
+                    📦
+                </div>
+                <div class="flex flex-col md:items-center text-left md:text-center flex-grow">
+                    <h3 class="text-2xl md:text-3xl font-black text-blue-900 mb-1 md:mb-3">Peminjaman Barang</h3>
+                    <p class="hidden md:block text-slate-500 text-base mb-8 flex-grow leading-relaxed">Urus dan pantau status peminjaman peralatan serta aset kolej dengan mudah.</p>
+                    <p class="md:hidden text-slate-500 text-sm mb-4">Urus peralatan & aset kolej</p>
+                    <div class="inline-flex items-center text-blue-600 font-bold text-xs md:text-base bg-blue-50 px-5 py-2.5 md:px-8 md:py-3 rounded-full group-hover:bg-blue-600 group-hover:text-white transition w-fit self-start md:self-center shadow-sm">
+                        Mula Pinjam
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 md:h-5 md:w-5 ml-2 md:ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card: Kunci -->
+        <a href="kunci_index.php" class="group block">
+            <div class="menu-card bg-white p-6 md:p-10 rounded-[1.5rem] md:rounded-[3rem] border border-slate-100 shadow-sm flex flex-row md:flex-col items-center md:text-center h-full gap-5 md:gap-0">
+                <div class="w-16 h-16 md:w-24 md:h-24 bg-amber-50 rounded-2xl md:rounded-[2rem] flex items-center justify-center text-3xl md:text-5xl md:mb-8 shrink-0 group-hover:scale-110 transition duration-300">
+                    🔑
+                </div>
+                <div class="flex flex-col md:items-center text-left md:text-center flex-grow">
+                    <h3 class="text-2xl md:text-3xl font-black text-blue-900 mb-1 md:mb-3">Peminjaman Kunci</h3>
+                    <p class="hidden md:block text-slate-500 text-base mb-8 flex-grow leading-relaxed">Akses kunci bilik atau fasiliti dengan sistem tempahan yang efisien.</p>
+                    <p class="md:hidden text-slate-500 text-sm mb-4">Akses kunci bilik & fasiliti</p>
+                    <div class="inline-flex items-center text-amber-600 font-bold text-xs md:text-base bg-amber-50 px-5 py-2.5 md:px-8 md:py-3 rounded-full group-hover:bg-amber-500 group-hover:text-white transition w-fit self-start md:self-center shadow-sm">
+                        Semak Kunci
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 md:h-5 md:w-5 ml-2 md:ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+</main>
+
+<footer class="mt-auto text-center py-6 md:py-10 text-slate-400 text-[8px] md:text-[10px] font-bold uppercase tracking-widest px-4">
+    &copy; <?= date('Y') ?> KKPPS System • Developed for Efficiency
+</footer>
+
+</body>
+</html>

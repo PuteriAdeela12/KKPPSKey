@@ -1,0 +1,913 @@
+﻿key_code,room_name,remarks
+1C001,INCUBATOR,FD-1
+1C002,INCUBATOR,FD-2
+1D003,INCUBATOR,MD-1
+1D004,INCUBATOR,MD-2
+1D005,INCUBATOR,BD
+1C006,BILIK KAWALAN,FD
+1B007,BILIK KAWALAN,BD
+1A008,BILIK MSB,MD
+1D009,LOBBY,FD-L-1
+1D010,LOBBY,FD-L-2
+1E011,LOBBY,FD-R-1
+1E012,LOBBY,FD-R-2
+1E013,STOR HEP,FD
+1E014,STOR HEP,BD
+1D015,BILIK SDF,MD
+1D016,BILIK HCRDB,MD
+1D017,RUANG SERBAGUNA,MD
+1D018,PINTU RUANG SERBAGUNA,MD
+1F019,STUDENT CENTRE,FD-L-1
+1F020,STUDENT CENTRE,FD-L-2
+1G021,STUDENT CENTRE,FD-R-1
+1G022,STUDENT CENTRE,FD-R-2
+1G023,STUDENT CENTRE,MD-L-1
+1G024,STUDENT CENTRE,MD-L-2
+1G025,STUDENT CENTRE,BD
+1F026,STUDENT CENTRE,MD-R-1
+1F027,STUDENT CENTRE,MD-R-2
+1H028,SIMULATION AREA,MD
+1H029,SIMULATION AREA,MD
+1H030,PREP AREA,MD
+1I031,PSH,FD-1
+1I032,PSH,FD-2
+1I033,PSH,BD
+1J034,CAFE,FD-1
+1J035,CAFE,FD-2
+1J036,CAFE,BD
+1J037,KOPERASI,FD
+1J038,KOPERASI,BD
+2A039,PENGARAH,FD-1
+2A040,PENGARAH,FD-2
+2A041,PENGARAH,BD
+2A042,PENO. PEG. TADBIR,MD
+2A043,KEWANGAN,MD
+2A044,BILIK CETAK,MD
+2A045,BILIK SSB,MD
+2A046,BILIK UTILITI,MD
+2B047,RUANG MENUNGGU,MD-1
+2B048,RUANG MENUNGGU,MD-2
+2B049,ADMIN,FD
+2D050,ADMIN,MD
+2B051,ADMIN,BD
+2C052,TIM. PEG. 2,FD
+2C053,TIM. PEG. 3,BD
+2C054,TIM. PEG. 1,MD
+2D055,BILIK FAIL,MD
+2D056,PINTU LALUAN ADMIN,MD
+2D057,BILIK MESYUARAT,FD-L-1
+2D058,BILIK MESYUARAT,FD-L-2
+2E059,BILIK MESYUARAT,FD-R-1
+2E060,BILIK MESYUARAT,FD-R-2
+2E061,BILIK MESYUARAT,BD-R
+2D062,BILIK MESYUARAT,BD-L
+2D063,BILIK UTILITI 1,L
+2E064,BILIK UTILITI 2,R
+2D065,BILIK TCR,MD
+2F066,DEWAN KULIAH,FD-L-1
+2F067,DEWAN KULIAH,FD-L-2
+2G068,DEWAN KULIAH,FD-R-1
+2G069,DEWAN KULIAH,FD-R-2
+2G070,DEWAN KULIAH,BD-R
+2F071,DEWAN KULIAH,BD-L
+2F072,B. PERSEDIAAN 2 (STOR),L
+2G073,B. PERSEDIAAN 2 (STOR),R
+2H074,SURAU,FD
+2H075,SURAU,BD
+2H076,SURAU,GIRL
+2H077,SURAU,BOY
+2H078,PINTU LALUAN HEP,MD
+2I079,BILIK FAIL EXAM,MD
+2I080,BILIK PEG. EXAM,MD
+2I081,BILIK PEG. PENGAMBILAN,MD
+2I082,BILIK PEG. LI,MD
+2J083,RUANG HEP,FD
+2J084,RUANG HEP,
+2J085,RUANG HEP,MD
+2J086,RUANG HEP,BD
+2J087,BILIK FAIL HEP,MD
+2J088,BILIK PEG. PP,MD
+3A089,BILIK PENSYARAH,FD-L-1
+3A090,BILIK PENSYARAH,FD-L-2
+3B091,BILIK PENSYARAH,FD -R
+3B092,BILIK PENSYARAH,BD-R
+3A093,BILIK PENSYARAH,BD-L
+3A094,BILIK DB,MD
+3A095,BILIK UTILITI,MD
+3B096,P.LALUAN PENSYARAH,MD
+3C097,MAKMAL MULTIMEDIA,FD
+3C098,MAKMAL MULTIMEDIA,BD
+3C099,P.LALUAN M.MMEDIA,MD
+3D100,BILIK ICT,MD
+3D101,BILIK MAIN TCR,MD
+3D102,BILIK TCR,MD
+3E103,M.PENGATUCARAAN 1,FD
+3E104,M.PENGATUCARAAN 2,BD
+3E105,B.PERSEDIAAN 3,WR
+3F106,M.K.LOGISTIK 1,FD
+3F107,M.K.LOGISTIK 1,BD
+3F108,B.PERSEDIAAN 4 (PSH),L
+3G109,B.PERSEDIAAN 4 (PSH),R
+3G110,M.K.LOGISTIK 2,FD
+3G111,M.K.LOGISTIK 2,BD
+3H112,M.PENGATUCARAAN 2,FD
+3H113,M.PENGATUCARAAN 2,BD
+3H114,P.LALUAN M.P2,MD
+3I115,MAKMAL BAHASA,FD
+3I116,MAKMAL BAHASA,BD
+3J117,LIBRARY,FD-1
+3J118,LIBRARY,FD-2
+3J119,LIBRARY,BD
+4A120,MAK.PENDAWAIAN RANGKAIAN,FD-1
+4A121,MAK.PENDAWAIAN RANGKAIAN,FD-2
+4A122,MAK.PENDAWAIAN RANGKAIAN,BD
+4A123,BILIK DB,MD
+4A124,BILIK UTILITI,MD
+4B125,MAK. RANGKAIAN KOMPUTER,FD
+4B126,MAK. RANGKAIAN KOMPUTER,BD
+4B127,P.LALUAN MRK,MD
+4C128,MAKMAL BAIK PULIH KOMPUTER,FD
+4C129,MAKMAL BAIK PULIH KOMPUTER,BD
+4C130,P.LALUAN MBPK,MD
+4D131,TEC1,FD
+4D132,TEC1,BD
+4D133,BILIK TCR,MD
+4E134,MAKMAL IOT,FD
+4E135,MAKMAL IOT,BD
+4E136,B. PERSEDIAAN 5,MD
+4F137,TECC2,FD-L
+4G138,TECC2,FD-R
+4G139,TECC2,BD-R
+4F140,TECC2,BD-L
+4F141,B.PERSEDIAAN 6,R
+4G142,B.PERSEDIAAN 6,L
+4H143,MAKMAL AI,FD
+4H144,MAKMAL AI,BD
+4H145,P.LALUAN M.AI,MD
+4I146,TEC 2,FD
+4I147,TEC 2,BD
+4I148,P.LALUAN TEC2,MD
+4J149,TECC 1,FD-L
+4J150,TECC 1,FD-R
+4J151,TECC 1,BD
+1CD152,INCUBATOR(SK),S.Key
+1CB153,BILIK KAWALAN(SK),S.Key
+1A154,BILIK MSB(SK),S.Key
+1DE155,LOBBY(SK),S.Key
+1E156,STOR HEP(SK),S.Key
+1D157,BILIK SDF(SK),S.Key
+1D158,BILIK HCRDB(SK),S.Key
+1D159,RUANG SERBAGUNA(SK),S.Key
+1D160,PINTU RUANG SERBAGUNA(SK),S.Key
+1FG161,STUDENT CENTRE(SK),S.Key
+1H162,SIMULATION AREA(SK),S.Key
+1H163,PREP AREA(SK),S.Key
+1I164,PSH(SK),S.Key
+J165,CAFE(SK),S.Key
+1J166,KOPERASI(SK),S.Key
+2A167,PENGARAH(SK),S.Key
+2A168,PENO. PEG. TADBIR(SK),S.Key
+2A169,KEWANGAN(SK),S.Key
+2A170,BILIK CETAK(SK),S.Key
+2A171,BILIK SSB(SK),S.Key
+2A172,BILIK UTILITI(SK),S.Key
+2B173,RUANG MENUNGGU(SK),S.Key
+2BD174,ADMIN(SK),S.Key
+2C175,TIM. PEG. 2(SK),S.Key
+2C176,TIM. PEG. 1(SK),S.Key
+2D177,BILIK FAIL(SK),S.Key
+2D178,PINTU LALUAN ADMIN(SK),S.Key
+2D179/80,BILIK MESYUARAT(SK),S.Key
+2D181,BILIK UTILITI 1(SK),S.Key
+2D182,BILIK UTILITI 2(SK),S.Key
+2D183,BILIK TCR(SK),S.Key
+2FG184,DEWAN KULIAH(SK),S.Key
+2FG185,B. PERSEDIAAN 2 (STOR)(SK),S.Key
+2H186,SURAU(SK),S.Key
+2H187,PINTU LALUAN HEP(SK),S.Key
+2I188,BILIK FAIL EXAM(SK),S.Key
+2I189,BILIK PEG. EXAM(SK),S.Key
+2I190,BILIK PEG. PENGAMBILAN(SK),S.Key
+2I191,BILIK PEG. LI(SK),S.Key
+2J192,RUANG HEP(SK),S.Key
+2J193,BILIK FAIL HEP(SK),S.Key
+2J194,BILIK PEG. PP(SK),S.Key
+3AB195,BILIK PENSYARAH(SK),S.Key
+3A196,BILIK DB(SK),S.Key
+3A197,BILIK UTILITI(SK),S.Key
+3B198,P.LALUAN PENSYARAH(SK),S.Key
+3C199,MAKMAL MULTIMEDIA(SK),S.Key
+3C200,P.LALUAN M.MMEDIA(SK),S.Key
+3D201,BILIK ICT(SK),S.Key
+3D202,BILIK MAIN TCR(SK),S.Key
+3D203,BILIK TCR(SK),S.Key
+3E204,M.PENGATUCARAAN 1(SK),S.Key
+3E205,B.PERSEDIAAN 4 (PSH)(SK),S.Key
+3G206,M.K.LOGISTIK 2(SK),S.Key
+3H207,M.PENGATUCARAAN 2(SK),S.Key
+3H208,P.LALUAN M.P2(SK),S.Key
+3I209,MAKMAL BAHASA(SK),S.Key
+3J210,LIBRARY(SK),S.Key
+4A211,MAK.PENDAWAIAN RANGKAIAN(SK),S.Key
+4A212,BILIK DB(SK),S.Key
+4A213,BILIK UTILITI(SK),S.Key
+4B214,MAK. RANGKAIAN KOMPUTER(SK),S.Key
+4B215,P.LALUAN MRK(SK),S.Key
+4C216,MAKMAL BAIK PULIH KOMPUTER(SK),S.Key
+4C217,P.LALUAN MBPK(SK),S.Key
+4D218,TEC1(SK),S.Key
+4D219,BILIK TCR(SK),S.Key
+4E220,MAKMAL IOT(SK),S.Key
+4E221,B. PERSEDIAAN 5(SK),S.Key
+4FG222,TECC2(SK),S.Key
+4FG223,B.PERSEDIAAN 6(SK),S.Key
+4H224,MAKMAL AI(SK),S.Key
+4H225,P.LALUAN M.AI(SK),S.Key
+4I226,TEC 2(SK),S.Key
+4I227,P.LALUAN TEC2(SK),S.Key
+4J228,TECC 1(SK),S.Key
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
